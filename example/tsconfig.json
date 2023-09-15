@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "terminal-payments": ["../src/index"],
+      "terminal-payments/*": ["../src/*"]
+    }
+  }
+}
